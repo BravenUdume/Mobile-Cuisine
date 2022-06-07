@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="transition.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        
+        <a href="index.html"><h1>Mobile Cuisine</h1></a>
+        <div class="tooltip">
+            <a href="#" ><img src="icons/icons8-expand-arrow-50.png" width="30px" height="30px"></a>
+            <span class="tooltip_text">
+                <a href="login.html" class="white_hover" id="create">Login?</a>
+                <a href="create.html" class="white_hover" id="login">Sign-up?</a>
+            </span>
+        </div>
+
+    </header>
+
+    <section id="login_page" class="login_page transition"> 
+        <span class="previous_click"> <a href="index.html" onclick="homeClick()">previous</a></span>
+        <div class="login_box">
+            <form id="form">
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <span>
+                    <a href="#">Need Help?</a>
+                    <a href="create.html">Create Account</a>
+                </span>
+                <button id="loginDetailsSave" class="login_button">Proceed</button>
+            </form>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>&copy; Copyright Mobile Cuisine 2022</p>
+    </footer>
+    
+
+    
+</body>
+<script src="main.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,63 @@
+
+section{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section form{
+    display:flex;
+    flex-direction: column;
+    margin-top:150px;
+}
+.names input, .userID input{
+    height:40px;
+    width:250px;
+    background-color: rgb(128, 128, 128,.5);
+    border:none;
+    border-radius: 20px;
+    padding:0 15px;
+}
+.names input::placeholder, .userID input::placeholder{
+    color:rgb(56, 56, 172);
+    font-size:1.2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.names input:hover, .userID input:hover{
+    background-color: white;
+}
+input{
+    margin:10px;
+}
+.names, .userID{
+    display: flex;
+}
+
+button{
+    background-color: white;
+    color:rgb(56, 56, 172);
+    border:none;
+    height:50px;
+    width:300px;
+    margin-left:150px;
+    font-size:1.3em;
+    font-family: inherit;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+button:hover{
+    background-color: gray;
+}
+
+
+.previous_click a{
+    text-decoration: underline white;
+    background-color: rgb(56, 56, 172);
+    color:white;
+    padding:8px;
+}
+.previous_click{
+    margin-top:30px;
+}
+.previous_click a:hover{
+    color:gray;
+    text-decoration: underline gray;
+}
+

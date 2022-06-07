@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="create.css" rel="stylesheet">
+    <link href="transition.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        
+        <a href="index.html"><h1>Mobile Cuisine</h1></a>
+        <div class="tooltip">
+            <a href="#" ><img src="icons/icons8-expand-arrow-50.png" width="30px" height="30px"></a>
+            <span class="tooltip_text">
+                <a href="login.html" class="white_hover" id="create">Login?</a>
+                <a href="#" class="white_hover" id="login">Sign-up?</a>
+            </span>
+        </div>
+
+    </header>
+
+
+    <section class="transition">
+        <span class="previous_click"> <a href="index.html" onclick="homeClick()">previous</a></span>
+        <form>
+           <span class="names">
+               <input type="text" placeholder="first-name" id="firstName">
+               <input type="text" placeholder="last-name" id="lastname"> 
+           </span>
+           <span class="userID">
+               <input type="text" placeholder="username" id="username">
+               <input type="password" placeholder="password" id="password">
+           </span>
+           <span class="occupation">
+               <p>Your Occupation?</p>
+               <input type="checkbox" value="Employed" name="employed" id="employed">
+               <label for="employed">Employed</label>
+               <input type="checkbox" value="Unmployed" name="unemployed" id="unemployed">
+               <label for="unemployed">Unmployed</label>
+               <input type="checkbox" value="Student" name="student" id="student">
+               <label for="student">Student</label>
+           </span>
+           <button id="createWallet">create!</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Copyright Mobile Cuisine 2022</p>
+    </footer>
+    
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
